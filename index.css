@@ -1,0 +1,109 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    /* margin: 0;
+    padding: 0; */
+   align-items: center;
+   justify-content: center;
+    box-sizing: border-box;
+    margin: auto;
+    
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top:25px;
+    gap: 39px;
+    border: 2px black;
+    border-radius: 25px;
+    border: 1;
+    width: 750px;
+    background-color: white;
+    padding-left: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: -2px;
+
+}
+.head{
+    font-size: 45px;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: cornflowerblue;
+    display: flex;
+    
+}
+.tick{
+   width: 15px;
+}
+.email{
+    font-size: small;
+    
+}
+.emai{
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    border-color:darkgray ;
+}
+.button{
+    height: 35px;
+    width: 255px;
+    border-radius: 5px;
+    /* border-color:gray ; */
+    background-color:black ;
+    color: white;
+    }
+    .body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .wrong{
+        display: flex;
+        gap: 60px;
+    
+    }
+    .valid{
+        font-size: small;
+    
+    }
+.success{
+    background-color: white;
+    width: 280px;
+    height: 280px;
+    border-radius: 25px;
+    padding: 40px;  
+    position: absolute;
+    /* display: flex;
+    flex-direction: column; */
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+.thanks{
+    font:bolder;
+    /* padding-bottom: 20px; */
+}
+.btn{
+    background-color: black;
+    color: white;
+    width: 270px;
+    height: 42px;
+    border-radius: 10px;
+}
+
+
+.hide{
+    visibility: hidden;
+}
+.show{
+    visibility: visible;
+}

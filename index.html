@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body class="body">
+  <div class="container show" id="container">
+    <div class="form">
+      <div class="info">
+        <h1 class="head">Stay updated!</h1>
+        <p>join 60,000+ product managers receiving monthly <br>
+          updates on:
+        </p>
+        <div >
+          <p><img src="assets/images/icon-list.svg" class="tick">  Product discovery and building what matters</p>
+          <p><img src="assets/images/icon-list.svg" class="tick">  Measuring to ensure updates are a success</p>
+          <p><img src="assets/images/icon-list.svg" class="tick">  And much more!</p>
+        </div>
+        <div class="wrong">
+          <h3 class="email">Email Address</h3>
+        <h3 class="valid hide" id="valid">Valid email required</h3>
+        </div>
+        <input type="email" class="emai" id="email" placeholder="abcd@gmail.com"/><br><br>
+        
+        <button class="button" id="btn">Subscribe to monthly newsletter</button>
+         
+      </div>
+      <div class="card">
+        <img src="assets/images/illustration-sign-up-desktop.svg">
+      </div>
+      <div>
+
+      </div>
+    </div>
+  </div>
+  <div class="success hide" id="success">
+     <img src="./assets/images/icon-success.svg" class="suc"/>
+     <h1 class="thanks">Thanks for subscribing</h1>
+     <p>A confirmation email has been sent to.<br>Please open it and click 
+      the button inside  <br/>to your subscription.</p>
+      <button class="btn" id="button">Dismiss message</button>
+  </div>
+  <script src="success.js"></script>
+</body>
+</html>
